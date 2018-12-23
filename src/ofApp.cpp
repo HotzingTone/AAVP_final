@@ -4,7 +4,6 @@
 void ofApp::setup(){
     
     ofSetFrameRate(60);
-    ofScale(0.4);
     
     ofxMaxiSettings::setup(44100, 2, 512);
     ofSoundStreamSetup(2, 0, 44100, 512, 4);
